@@ -319,7 +319,7 @@ static void mdlOutputs(SimStruct *S, int_T tid)
     
     //OUTPUT FRAME
     *Mag = e_ipdft_amp;
-    *Phase = e_ipdft_ph;
+    *Phase = e_ipdft_ph - PI/2;
     *Freq = e_ipdft_freq;
     *rocof = e_ipdft_rocof;   
     *FrameFRACSEC = fracsec;
